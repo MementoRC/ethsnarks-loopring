@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'ethsnarks_loopring',
   packages = ['ethsnarks_loopring'],
-  version = '0.1.3',
+  version = '0.1.4',
   license='MIT',
   description = 'A toolkit for zkSNARKS signing specific to loopring',
   author = 'LinqLiquidityNetwork',
   author_email = 'michael@linq.network', 
   url = 'https://github.com/Linq-Liquidity-Network/ethsnarks-loopring',
-  download_url = 'https://github.com/Linq-Liquidity-Network/ethsnarks-loopring/archive/v0.1.3.tar.gz',
+  download_url = 'https://github.com/Linq-Liquidity-Network/ethsnarks-loopring/archive/v0.1.4.tar.gz',
   keywords = ['crypto', 'loopring', 'SNARKS', 'zero-knowledge', 'ethereum'],
   install_requires=[
             'bitstring',
