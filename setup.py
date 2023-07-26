@@ -1,21 +1,19 @@
-from distutils.core import setup
-from setuptools import find_packages
+from setuptools import setup, find_packages
 
 setup(
     name='ethsnarks_loopring',
     packages=find_packages(),
-    version='0.1.6a',
+    version='0.1.6a1',
     license='MIT',
     description='A toolkit for zkSNARKS signing specific to loopring',
     author='LinqLiquidityNetwork',
     author_email='michael@linq.network',
     url='https://github.com/Linq-Liquidity-Network/ethsnarks-loopring',
-    download_url='https://github.com/MementoRC/ethsnarks-loopring/archive/refs/tags/v0.1.6a.tar.gz',
+    download_url='https://github.com/MementoRC/ethsnarks-loopring/archive/refs/tags/v0.1.6a1.tar.gz',
     keywords=['crypto', 'loopring', 'SNARKS', 'zero-knowledge', 'ethereum'],
     install_requires=[
         'bitstring',
         'safe-pysha3',
-        'pyblake2'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
